@@ -41,7 +41,7 @@ def count_unique_objects(sequence: Sequence):
 
 def main():
     # MODIFY THIS LINE AND INSERT PATH WHERE YOU STORED THE RADARSCENES DATASET
-    path_to_dataset = "../data/RadarScenes/"
+    path_to_dataset = "data/RadarScenes/"
 
     # Define the *.json file from which data should be loaded
     filename = os.path.join(path_to_dataset, "data", "sequence_137", "scenes.json")

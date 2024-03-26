@@ -186,7 +186,7 @@ def validation_data_generator(validation_sequences: list, path_to_dataset: str, 
 
 def main():
     # MODIFY THIS LINE AND INSERT PATH WHERE YOU STORED THE RADARSCENES DATASET
-    path_to_dataset = "../data/RadarScenes/"
+    path_to_dataset = "data/RadarScenes/"
     sequence_file = os.path.join(path_to_dataset, "data", "sequences.json")
 
     if not os.path.exists(sequence_file):
