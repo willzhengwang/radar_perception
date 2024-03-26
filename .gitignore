@@ -168,5 +168,5 @@ cython_debug/
 
 # ignore the data folder in the roor dir; track the changes of data folders in sub-directories.
 data
-#!*/data/
+!*/data/
 logs
